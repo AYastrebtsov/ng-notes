@@ -39,6 +39,8 @@ export class AppComponent {
       .subscribe((value) => {
         const noteActive = this.location.path();
 
+        console.log(noteActive);
+
         if (noteActive !== "" && value.length > 0) {
           const noteExists = value.find(
             (note) => note.id === Number(noteActive.slice(1))
