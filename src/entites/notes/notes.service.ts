@@ -22,7 +22,7 @@ export class NotesService {
     bodyFormData.append("text", note.text);
 
     return this.http.post<{ status: "success" }>(
-      "https://run.mocky.io/v3/34efeabd-0a91-421c-9e8b-f257dcc38c62",
+      "https://run.mocky.io/v3/08f45f6c-84a0-4865-8d19-77c9b9059d92",
       bodyFormData
     );
   }
