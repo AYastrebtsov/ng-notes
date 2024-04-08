@@ -1,9 +1,9 @@
 Bundled license information:
 
-react/cjs/react-jsx-runtime.production.min.js:
+react/cjs/react-jsx-runtime.development.js:
   /**
    * @license React
-   * react-jsx-runtime.production.min.js
+   * react-jsx-runtime.development.js
    *
    * Copyright (c) Facebook, Inc. and its affiliates.
    *
