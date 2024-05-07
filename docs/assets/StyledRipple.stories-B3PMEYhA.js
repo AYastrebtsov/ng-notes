@@ -1,0 +1,16 @@
+import{j as e}from"./jsx-dev-runtime-BETcGmrp.js";import{R as a}from"./ripple.esm-BrXfoef4.js";import"./index-BdMw_Ax9.js";import"./api.esm-CEpbZOGc.js";import"./componentbase.esm-DDX_NIJ5.js";const r=({...p})=>e.jsxDEV(a,{...p},void 0,!1,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.tsx",lineNumber:14,columnNumber:3},void 0);r.__docgenInfo={description:"",methods:[],displayName:"StyledRipple",props:{pt:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  root: {
+    style: {
+      [key: string]: string;
+    };
+  };
+}`,signature:{properties:[{key:"root",value:{name:"signature",type:"object",raw:`{
+  style: {
+    [key: string]: string;
+  };
+}`,signature:{properties:[{key:"style",value:{name:"signature",type:"object",raw:`{
+  [key: string]: string;
+}`,signature:{properties:[{key:{name:"string"},value:{name:"string",required:!0}}]},required:!0}}]},required:!0}}]}},description:""}}};const n=()=>e.jsxDEV("div",{className:"card justify-content-center align-items-center flex gap-2",children:[e.jsxDEV("div",{className:"p-ripple border-round border-radius-10 shadow-2 p-5",children:["Green",e.jsxDEV(r,{pt:{root:{style:{background:"rgba(75, 175, 80, 0.3)"}}}},void 0,!1,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:9,columnNumber:7},void 0)]},void 0,!0,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:7,columnNumber:5},void 0),e.jsxDEV("div",{className:"p-ripple border-round border-radius-10 shadow-2 p-5",children:["Orange",e.jsxDEV(r,{pt:{root:{style:{background:"rgba(255, 193, 6, 0.3)"}}}},void 0,!1,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:17,columnNumber:7},void 0)]},void 0,!0,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:15,columnNumber:5},void 0),e.jsxDEV("div",{className:"p-ripple border-round border-radius-10 shadow-2 p-5",children:["Purple",e.jsxDEV(r,{pt:{root:{style:{background:"rgba(156, 39, 176, 0.3)"}}}},void 0,!1,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:25,columnNumber:7},void 0)]},void 0,!0,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:23,columnNumber:5},void 0)]},void 0,!0,{fileName:"/Users/andrey/Documents/work/marriator/app/shared/ui/StyledRipple/StyledRipple.stories.tsx",lineNumber:6,columnNumber:3},void 0),y={title:"Утилиты/StyledRipple",component:n,tags:["autodocs"],parameters:{docs:{description:{component:`<p>Эта утилита нужна только потому, что в библиотечном Ripple не прописаны типы для пропа PT. Нужен для того чтобы добвить Ripple не только кнопкам, но и ссылкам, и иметь возможность перекрасить цвет самого Ripple</p>
+<p>Основана на https://primereact.org/ripple/</p>`}}}},u={name:"StyledRipple c разными цветами"};var i,s,t;u.parameters={...u.parameters,docs:{...(i=u.parameters)==null?void 0:i.docs,source:{originalSource:`{
+  name: "StyledRipple c разными цветами"
+}`,...(t=(s=u.parameters)==null?void 0:s.docs)==null?void 0:t.source}}};const E=["Primary"];export{u as Primary,E as __namedExportsOrder,y as default};
