@@ -51,11 +51,11 @@ export const Primary: Story = {
         value: "summer",
         label: "лето",
         text: "Сложно сказать, почему средства индивидуальной защиты оказались бесполезны Сложно сказать, почему средства индивидуальной защиты оказались бесполезны",
-        img: "/mockImg/stash.jpg",
+        img: "/ng-notes/mockImg/stash.jpg",
         disabled: false,
         details: {
           text: "Название деятельности",
-          img: "/mockImg/stash.jpg",
+          img: "/ng-notes/mockImg/stash.jpg",
           link: {
             text: "Link",
             type: "external",

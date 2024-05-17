@@ -2,7 +2,7 @@ import type { StorybookConfig } from "@storybook/react-vite";
 
 const config: StorybookConfig = {
   stories: ["../app/**/*.mdx", "../app/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
-  staticDirs: [{ from: "../public/", to: "../ng-notes/mockImg/" }],
+  staticDirs: [{ from: "../public/ng-notes/mockImg/", to: "/mockImg/" }],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -22,5 +22,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
+  // async viteFinal(config, { configType }) {
+  //   config.base = "/ng-notes/";
+
+  //   // return the customized config
+  //   return config;
+  // },
 };
 export default config;
