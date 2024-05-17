@@ -15,7 +15,14 @@ import "../app/fonts.css";
 
 const queryClient = new QueryClient();
 
-initialize();
+initialize({
+  // serviceWorker: {
+  //   url: "/ng-notes/mockServiceWorker.js",
+  // },
+  findWorker(scriptUrl, mockServiceWorkerUrl) {
+    return scriptUrl.includes("mockServiceWorker");
+  },
+});
 
 export const Provider = ({ children }: { children?: ReactNode }) => {
   return (
