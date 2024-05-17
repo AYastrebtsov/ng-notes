@@ -1,0 +1,56 @@
+import type { Config } from "tailwindcss";
+
+export default {
+  content: [
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/primereact/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        Golos: "'Golos UI'",
+      },
+      colors: {
+        Black: "#212121",
+        White: "#FFFFFF",
+        Corp_1: "#C7329B",
+        Corp_2: "#8A2DB5",
+        Copr_3: "#F19D7F",
+        Grey_1: "#5B5768",
+        Grey_2: "#8D9197",
+        Grey_3: "#C5C5CD",
+        Grey_4: "#E7E8ED",
+        Grey_5: "#F4F5F9",
+        Red: "#D92C2C",
+        Banner_Text_Error: "#572522",
+        Banner_Error: "#FAEDED",
+        Orange: "#FA9B72",
+        Orange_Text: "#281600",
+        Yellow: "#F3EA00",
+        Yellow_Light: "#FFFA7A",
+        Yellow_Text: "#4F4A02",
+        Violet: "#7F34AF",
+        Dark_blue: "#1E00D6",
+        Blue: "#7DC6FF",
+        Blue_Text: "#043860",
+        Green: "#86DC7F",
+        Green_Text: "#00260E",
+        Light_green: "#D3FF8C",
+        Light_Green_Text: "#404A02",
+        WhatsApp: "#1AB654",
+        Telegram: "#2AABEE",
+        Light_Violet: "#C596DA",
+        Yellow_hard: "#EABD1E",
+      },
+      boxShadow: {
+        Shadow_Header: "0px 2px 5px 0px rgba(0, 0, 0, 0.05)",
+        Shadow_Button: "0px 0px 5px 0px rgba(0, 0, 0, 0.15)",
+        Shadow_Card: "0px 0px 10px 0px rgba(0, 0, 0, 0.10)",
+        Shadow_Menu: "0px -1px 4px 0px rgba(0, 0, 0, 0.04)",
+        Shadow_Dashboard_1: "0px 0px 2px 0px rgba(0, 0, 0, 0.05)",
+        Shadow_Card_Hover: "0px 0px 20px 0px rgba(0, 0, 0, 0.30)",
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config;

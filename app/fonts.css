@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Golos UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./static/fonts/Golos-UI_Regular.woff2");
+}
+
+@font-face {
+  font-family: "Golos UI";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./static/fonts/Golos-UI_Medium.woff2");
+}
+
+@font-face {
+  font-family: "Golos UI";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./static/fonts/Golos-UI_Bold.woff2");
+}
